@@ -1,1 +1,3 @@
-print("Hello world.")
+from helpers import greet
+
+greet(input("What is your name: "))
